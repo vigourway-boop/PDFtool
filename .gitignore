@@ -1,0 +1,26 @@
+# 核心源码与单文件程序（闭源保护，不公开上传）
+/app/
+/PDFtool.exe
+.gitattributes
+
+# 个人测试文件与参考样例
+/测试用pdf/
+/参考用pdf合并/
+*.render_tmp.*
+*.docx_src_tmp.pdf
+*.tmp.*
+
+# Python / 打包构建缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+venv/
+build/
+dist/
+*.spec
+
+# 系统缓存
+Thumbs.db
+.DS_Store
